@@ -1,0 +1,25 @@
+{
+  "name": "js-signals-factory",
+  "version": "v0.0.1",
+  "description": "Simple factory implementation for js-signals.",
+  "keywords": [
+    "javascript",
+    "dev",
+    "signals",
+    "signal"
+  ],
+  "homepage": "https://github.com/ruyadorno/js-signals-factory",
+  "bugs": "https://github.com/ruyadorno/js-signals-factory/issues",
+  "author": "Ruy Adorno",
+  "main": "SignalFactory.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruyadorno/js-signals-factory.git"
+  },
+  "dependencies": {
+      "signals": "v1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  }
+}
