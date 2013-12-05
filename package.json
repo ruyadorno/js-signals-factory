@@ -20,6 +20,7 @@
       "signals": "v1.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.13.0"
+    "mocha": "~1.13.0",
+    "uglify-js": "2.4.6"
   }
 }
