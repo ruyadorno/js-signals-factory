@@ -55,7 +55,7 @@
 
         };
 
-        SignalFactory.clean = function() {
+        SignalFactory.clear = function() {
 
             var arr = SignalFactory.all();
             var count = arr.length;
