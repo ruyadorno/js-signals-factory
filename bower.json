@@ -1,0 +1,8 @@
+{
+  "name": "js-signals-factory",
+  "version": "v0.0.1",
+  "main": "SignalFactory.js",
+  "dependencies": {
+      "js-signals": "v1.0.0"
+  }
+}
