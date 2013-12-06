@@ -15,19 +15,45 @@ As expected, you will need to have `signals` available in your application befor
 
 The signals factory reduces your signal management to a single point where you can request and retrieve all your signals. Using a signal is as simple as:
 
-```js
 
+### Get a simple signal
+
+```js
+    var completed = SignalFactory.getSignal();
+    completed.add(function () {
+        console.log('it is completed!');
+    });
+```
+
+
+### Get named signals
+
+```js
     // First register a callback function to your signal
-    SignalFactory.getSignal('completed').add(function() {
+    SignalFactory.getSignal('completed').add(function () {
         console.log('it is completed!');
     });
 
     SignalFactory.getSignal('completed').dispatch();
     // it is completed!
 
+    // Remove reference by name
+    SignalFactory.removeSignal('completed');
+```
+
+
+### Get an array with all signals
+
+```js
+    var all = SignalFactory.all();
+```
+
+
+### Remove all used signals
+
+```js
     SignalFactory.clear();
     // All used signals are disposed and gone!
-
 ```
 
 
