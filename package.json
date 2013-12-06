@@ -1,6 +1,6 @@
 {
   "name": "js-signals-factory",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "description": "Simple factory implementation for js-signals.",
   "keywords": [
     "javascript",
