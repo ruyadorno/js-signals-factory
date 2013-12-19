@@ -6,6 +6,13 @@
   "dependencies": {
       "js-signals": "v1.0.0"
   },
+  "keywords": [
+      "js-signals",
+      "signals",
+      "event",
+      "observer",
+      "factory"
+  ],
   "homepage": "https://github.com/ruyadorno/js-signals-factory",
   "repository": {
       "type": "git",
