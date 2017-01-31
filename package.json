@@ -2,6 +2,9 @@
   "name": "js-signals-factory",
   "version": "v0.0.2",
   "description": "Simple factory implementation for js-signals.",
+  "scripts": {
+    "test": "mocha test/SignalFactorySpec.js"
+  },
   "keywords": [
     "javascript",
     "dev",
@@ -17,10 +20,10 @@
     "url": "https://github.com/ruyadorno/js-signals-factory.git"
   },
   "dependencies": {
-      "signals": "v1.0.0"
+    "signals": "v1.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.13.0",
+    "mocha": "~3.2.0",
     "uglify-js": "2.4.6"
   }
 }

@@ -1,7 +1,7 @@
 js-signals-factory
 ==================
 
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![Build Status](https://travis-ci.org/ruyadorno/js-signals-factory.svg?branch=master)](https://travis-ci.org/ruyadorno/js-signals-factory) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 
 A small factory implementation for js-signals.
 
