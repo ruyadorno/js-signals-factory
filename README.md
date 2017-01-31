@@ -1,6 +1,8 @@
 js-signals-factory
 ==================
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 A small factory implementation for js-signals.
 
 
